@@ -71,3 +71,39 @@ a:hover {
 a:active {
   color: lightblue;
 }
+table {
+	border: 1px solid black;
+	background-color: #eee;
+	padding: 0;
+}
+tr {
+	padding: 0;
+}
+th {
+	border-top: 1px solid #ccc;
+}
+th, td{
+	padding: 0.15em 0.3em;
+	border: 0;
+}
+tr:nth-child(odd) {background-color:#ddd}
+tr:nth-child(even) {background-color:#eee}
+#file_names th {
+	background-color: #ddd;
+	text-align: left;
+}
+#file_names td:first-child {
+	font-style: italic;
+}
+#file_names .bold {
+	font-weight: bold;
+}
+#file_names .indent {
+	padding-left: 2em;
+}
+#file_names .indent2 {
+	padding-left: 4em;
+}
+#file_names .indent3 {
+	padding-left: 6em;
+}
