@@ -30,12 +30,16 @@ h3 {
 img {
     max-width: 100%;
     margin-top: 0px;
+    border: 2px solid black;
 }
 p {
     margin-top: 0px;
 }
 .indentation {
     margin-left: 40px;
+}
+.mobil {
+    max-height: 400px;
 }
 footer {
     text-align: center;
